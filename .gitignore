@@ -1,0 +1,8 @@
+# Text File
+# AUTHOR:   deeje
+# FILE:     .gitignore
+# ROLE:     TODO (some explanation)
+# CREATED:  2014-03-23 10:51:40
+# MODIFIED: 2014-03-23 10:56:27
+/myconfig.rb
+*komodo*
