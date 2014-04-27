@@ -1,6 +1,18 @@
 retrieve4me_rest
 ================
 
+Requires
+----------------
+
+-rpm
+ruby 2.x.x
+ruby-devel if json gem needs installed
+rubygems
+
+-gems
+json
+sinatra
+
 Setup
 ----------------
 

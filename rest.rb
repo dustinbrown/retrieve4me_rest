@@ -4,6 +4,9 @@ require 'sinatra'
 require 'json'
 require_relative 'myconfig.rb'
 
+#Enable external access on any ip configured.
+set :bind, '0.0.0.0'
+
 #load config files
 config = MyConfig.new
 
