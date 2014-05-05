@@ -3,10 +3,17 @@
 # FILE:     unicorn.rb
 # ROLE:     TODO (some explanation)
 # CREATED:  2014-05-04 14:03:07
-# MODIFIED: 2014-05-04 14:09:36
-# set path to app that will be used to configure unicorn,
-# note the trailing slash in this example
-@dir = "/home/deeje/git/ruby/sinatra/retrieve4me_rest/"
+# MODIFIED: 2014-05-04 17:34:23
+
+#Load my config value file
+require File.expand_path '../myconfig.rb', __FILE__
+
+#load config files
+config = MyConfig.new
+
+project_path = config.attrs[:project_path]
+
+@dir = project_path
 
 worker_processes 2
 working_directory @dir

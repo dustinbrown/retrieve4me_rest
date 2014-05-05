@@ -6,9 +6,10 @@ class MyConfig
 
   def initialize
     @attrs = {
-      :username => '',
-      :password => '',
-      :path     => ''
+      :username     => '',
+      :password     => '',
+      :path         => ''
+      :project_path => ''
     }
   end
 
