@@ -3,7 +3,9 @@
 # FILE:     .gitignore
 # ROLE:     TODO (some explanation)
 # CREATED:  2014-03-23 10:51:40
-# MODIFIED: 2014-05-04 17:08:43
+# MODIFIED: 2014-05-04 17:11:46
 /myconfig.rb
 *komodo*
 *log*
+*.pid*
+*sock*
